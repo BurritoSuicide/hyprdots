@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Currently not working and enabled within Minecraft, may remove entirely.
+
 # Get the active window class
 active_class=$(xprop -id $(xprop -root _NET_ACTIVE_WINDOW | cut -d ' ' -f 5) | grep 'WM_CLASS' | cut -d '"' -f 4)
 
