@@ -6,5 +6,4 @@ function random_hex() {
 }
 
 hyprctl keyword general:col.active_border $(random_hex) $(random_hex) $(random_hex)  270deg
-
 hyprctl keyword general:col.inactive_border $(random_hex) rgb(616161)  270deg
